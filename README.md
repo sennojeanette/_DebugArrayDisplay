@@ -1,0 +1,2 @@
+# _DebugArrayDisplay
+_DebugArrayDisplay($aArrayFromText, UBound($aArrayFromText, $UBOUND_DIMENSIONS) &amp; "D") ; spaces are removed. $aArrayFromText = _ArrayFromString("1|2", Default, Default, True) ; force 2D array _DebugArrayDisplay($aArrayFromText, UBound($aArrayFromText, $UBOUND_DIMENSIONS) &amp; "D") $aArrayFromText = _ArrayFromString("1|2" &amp; @CRLF &amp; "3|4") _DebugArrayDisplay($aArrayFromText, UBound($aArrayFromText, $UBOUND_DIMENSIONS) &amp; "D") EndFunc   ;==>Example
